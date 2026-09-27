@@ -1,0 +1,47 @@
+=== PRIMARY RANDOM-EFFECTS MODEL ===
+
+Random-Effects Model (k = 4; tau^2 estimator: REML)
+
+tau^2 (estimated amount of total heterogeneity): 0 (SE = 3.5704)
+tau (square root of estimated tau^2 value):      0
+I^2 (total heterogeneity / total variability):   0.00%
+H^2 (total variability / sampling variability):  1.00
+
+Test for Heterogeneity:
+Q(df = 3) = 1.3788, p-val = 0.7105
+
+Model Results:
+
+estimate      se    zval    pval   ci.lb   ci.ub      
+  5.7877  1.0459  5.5339  <.0001  3.7378  7.8375  *** 
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+=== META-REGRESSION MODEL ===
+
+Mixed-Effects Model (k = 4; tau^2 estimator: REML)
+
+tau^2 (estimated amount of residual heterogeneity):     0 (SE = 4.1225)
+tau (square root of estimated tau^2 value):             0
+I^2 (residual heterogeneity / unaccounted variability): 0.00%
+H^2 (unaccounted variability / sampling variability):   1.00
+R^2 (amount of heterogeneity accounted for):            0.00%
+
+Test for Residual Heterogeneity:
+QE(df = 1) = 0.2308, p-val = 0.6309
+
+Test of Moderators (coefficients 2:3):
+QM(df = 2) = 1.1480, p-val = 0.5633
+
+Model Results:
+
+                           estimate      se     zval    pval    ci.lb    ci.ub      
+intrcpt                      5.5617  1.1725   4.7436  <.0001   3.2637   7.8597  *** 
+estrogen_routeoral          -0.2617  2.9436  -0.0889  0.9291  -6.0310   5.5076      
+estrogen_routetransdermal    4.8883  4.6406   1.0534  0.2922  -4.2071  13.9836      
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
